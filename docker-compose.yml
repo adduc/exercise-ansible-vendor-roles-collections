@@ -1,0 +1,6 @@
+services:
+  ansible:
+    image: ockawin/v1-app-ansible:3.16-amd64
+    working_dir: /etc/ansible
+    volumes:
+    - ./:/etc/ansible
